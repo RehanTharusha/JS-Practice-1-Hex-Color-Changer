@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+/* font-family: 'PT Sans', sans-serif; */
+
+
+.container{
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hex-colors{
+    text-align: center;
+}
+
+.hex-colors h1{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    text-transform: capitalize;
+    animation: colorchange 3s infinite alternate;
+}
+
+.hex-colors h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 3rem;
+    margin-top: 15%;
+}
+
+@keyframes colorchange{
+    0%{
+        color: indigo;
+    }
+    40%{
+        color: blue;
+    }
+    60%{
+        color: green;
+    }
+    80%{
+        color: red;
+    }
+    100%{
+        color: orange;
+    }
+    
+}
+
+
